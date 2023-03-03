@@ -11,16 +11,25 @@ Répondre à un problème métier en utilisant toutes les connaissances vues dan
 ## Travaux à effectuer
 
 1. Versionnez le TP avec Git et GitHub.
-2. Utilisez le diagramme de classe pour modéliser les concepts de votre système.
-3. Transformez votre diagramme de classe en modèle relationnel.
-4. Créez votre base de données avec les tables à partir de votre modèle relationnel.
-5. Créez une single Page pour répondre aux besoins exprimés.
+2. Intégrez du JavaScript pour dynamiser vos pages web cf. [vidéo des intéractions](./src/video/actions.mp4)
+3. Créez une single Page pour répondre aux besoins exprimés.
 - Effectuez une mise en page en FlexBox et les positions pour vos pages web ;
 - Le menu doit rester visible lorsqu'on scrolle la page ;
 - Validez votre CSS et HTML à l'aide des validateurs ci-après.
-6. Intégrez du JavaScript pour dynamiser vos pages web cf. [vidéo des intéractions](./src/video/actions.mp4)
 
 Les détails des travaux ci-après.
+
+### Bonus à faire à la fin après avoir fini la partie Front-end
+
+1. Utilisez le diagramme de classe pour modéliser les concepts de votre système.
+2. Transformez votre diagramme de classe en modèle relationnel.
+3. Créez votre base de données avec les tables à partir de votre modèle relationnel.
+
+#### En équipe
+
+1. Réalisez le diagramme de classes pour la future base de données.
+2. Transformez le diagramme de classes en modèle relationnel.
+3. Créez votre base de données dans le SGBDR de votre choix (SQLite, MySQL ou MariaDB).
 
 ### Validation du code statique HTML et CSS
 
@@ -31,11 +40,12 @@ Les détails des travaux ci-après.
 
 - RESTEZ FOCUS sur les besoins exprimés, attention à ne pas trop s'éloigner du périmètre fonctionnel en ajoutant des nouvelles fonctionnalités.
 - Ne perdez pas du temps sur l'ajout des élements graphiques supplémentaires tels que les icônes, couleurs, fonts, concentrez-vous sur le fond (les besoins).
-- Pour la modélisation, si vous n'êtes pas à l'aise avec les outils, utilisez une feuille et un crayon.
 - Time-boxé (accordez-vous un temps maximal) pour réaliser une tâche et réunissez-vous 5 à 10 min pour faire le point afin de se synchroniser, détecter des obstacles ou difficultés pour vous permettre de vous réorganiser ou d'adapter votre plan d'action.
+- Pour la modélisation, si vous n'êtes pas à l'aise avec les outils, utilisez une feuille et un crayon.
+
 ---
 
-## Ressources
+## Ressources et documentation
 
 ### Graphiques
 
@@ -47,6 +57,7 @@ Les détails des travaux ci-après.
 - En js pour obtenir la valeur d'une propriété CSS `const bgColor = getComputedStyle(document.querySelector('body')).getPropertyValue("background-color");`
 - [Effet zoom](https://www.w3schools.com/cssref/css_pr_scale.php)
 - [Les transitions pour avoir des changements de valeur plus fluide et moins brusque](https://www.w3schools.com/css/css3_transitions.asp)
+
 ---
 
 ## Besoins exprimés par le client
@@ -69,9 +80,6 @@ Organisation et logiciels libres.
 
 Voici les missions de l'équipe : 
 1. Mettre en place un dépôt GitHub en invitant les membres du groupe et le formateur ***contact@tshimini.fr***.
-2. Réalisez le diagramme de classes pour la future base de données.
-3. Transformez le diagramme de classes en modèle relationnel.
-4. Créez votre base de données dans le SGBDR de votre choix (SQLite, MySQL ou MariaDB).
 
 Ensuite, attribuez-vous les tâches individuellement ou en binôme. Vous devez être capable de travailler individuellement ou en binôme sur une tâche tout en travaillant conjointement avec le reste de l'équipe.
 - Le premier développeur ou binôme est responsable de l'ouverture de compte.
