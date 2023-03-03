@@ -11,7 +11,7 @@ Répondre à un problème métier en utilisant toutes les connaissances vues dan
 ## Travaux à effectuer
 
 1. Versionnez le TP avec Git et GitHub.
-2. Intégrez du JavaScript pour dynamiser vos pages web cf. [vidéo des intéractions](./src/video/actions.mp4)
+2. Intégrez du JavaScript pour dynamiser vos pages web cf. [vidéo des interactions](./src/video/actions.mp4)
 3. Créez une single Page pour répondre aux besoins exprimés.
 - Effectuez une mise en page en FlexBox et les positions pour vos pages web ;
 - Le menu doit rester visible lorsqu'on scrolle la page ;
@@ -39,7 +39,7 @@ Les détails des travaux ci-après.
 ### Conseils
 
 - RESTEZ FOCUS sur les besoins exprimés, attention à ne pas trop s'éloigner du périmètre fonctionnel en ajoutant des nouvelles fonctionnalités.
-- Ne perdez pas du temps sur l'ajout des élements graphiques supplémentaires tels que les icônes, couleurs, fonts, concentrez-vous sur le fond (les besoins).
+- Ne perdez pas du temps sur l'ajout des éléments graphiques supplémentaires tels que les icônes, couleurs, fonts, concentrez-vous sur le fond (les besoins).
 - Time-boxé (accordez-vous un temps maximal) pour réaliser une tâche et réunissez-vous 5 à 10 min pour faire le point afin de se synchroniser, détecter des obstacles ou difficultés pour vous permettre de vous réorganiser ou d'adapter votre plan d'action.
 - Pour la modélisation, si vous n'êtes pas à l'aise avec les outils, utilisez une feuille et un crayon.
 
@@ -56,7 +56,7 @@ Les détails des travaux ci-après.
 - [Modal](https://www.w3schools.com/howto/howto_css_modals.asp)
 - En js pour obtenir la valeur d'une propriété CSS `const bgColor = getComputedStyle(document.querySelector('body')).getPropertyValue("background-color");`
 - [Effet zoom](https://www.w3schools.com/cssref/css_pr_scale.php)
-- [Les transitions pour avoir des changements de valeur plus fluide et moins brusque](https://www.w3schools.com/css/css3_transitions.asp)
+- [Les transitions pour avoir des changements de valeur plus fluide et moins brusques](https://www.w3schools.com/css/css3_transitions.asp)
 
 ---
 
