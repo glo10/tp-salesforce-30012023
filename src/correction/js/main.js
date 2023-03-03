@@ -38,7 +38,7 @@ const feeForm = `
 </form>
 `
 
-function scrool() {
+function scroll() {
   window.addEventListener("scroll", () => {
     const hdr = document.querySelector("header")
     hdr.style.opacity = 1
@@ -107,5 +107,5 @@ function modal(forms) {
 
 modal([openForm, withdrawForm, feeForm])
 zoom()
-scrool()
+scroll()
 search()
